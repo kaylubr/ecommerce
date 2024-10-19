@@ -55,7 +55,7 @@ if ($conn->connect_error) {
                     </ul>
                     <div class="text-center lg:flex items-center gap-1 sm:gap-4 lg:ml-auto">
                         <div class="flex justify-center py-2 px-2 text-white transition-all duration-300 rounded-lg items-center whitespace-nowrap gap-2">
-                            <span class="hidden lg:block">Hello, <?php echo htmlspecialchars($_SESSION['user']); ?> (<?php echo htmlspecialchars($_SESSION['role']); ?>)</span>
+                            <span class="hidden lg:block font-medium">Hello, <?php echo htmlspecialchars($_SESSION['user']); ?> (<?php echo htmlspecialchars($_SESSION['role']); ?>)</span>
                         </div>
                         <a href="../logout.php" class="flex justify-center py-2 px-3.5 bg-white hover:bg-indigo-50 text-gray-600 transition-all duration-300 rounded-lg items-center whitespace-nowrap gap-2">
                             <span class="hidden lg:block">Logout</span>
@@ -113,7 +113,7 @@ if ($conn->connect_error) {
 </div>
 
     </div>
-    
+
     <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
     <script src="https://cdn.tailwindcss.com"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.5.3/flowbite.min.js"></script>

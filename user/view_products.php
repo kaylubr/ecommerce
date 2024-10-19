@@ -31,7 +31,7 @@ include '../includes/db.php';
                 </div>
                 <div id="mobile-navbar" class="hidden lg:flex flex-row w-full flex-1 shadow-sm lg:shadow-none lg:bg-transparent rounded-xl py-4 lg:py-0">
                     <ul class="text-center flex lg:flex-row flex-col xl:gap-1 gap-2 lg:ml-auto lg:flex lg:bg-indigo-500 dark:bg-transparent items-center p-1 rounded-xl">
-                        <li><a href="dashboard.php" class="py-2 px-5 flex justify-center bg-white transition-all duration-500 ease-in-out text-xs text-gray-900 font-semibold rounded-lg">Dashboard</a></li>
+                        <li><a href="index.php" class="py-2 px-5 flex justify-center bg-white transition-all duration-500 ease-in-out text-xs text-gray-900 font-semibold rounded-lg">Dashboard</a></li>
                         <li><a href="view_orders.php" class="py-2 px-5 bg-transparent transition-all duration-500 ease-in-out text-xs text-white hover:bg-white hover:text-gray-900 font-semibold rounded-lg flex justify-center">View Orders</a></li>
                         <li><a href="view_products.php" class="py-2 px-5 bg-transparent transition-all duration-500 ease-in-out text-xs text-white hover:bg-white hover:text-gray-900 font-semibold rounded-lg flex justify-center">View Products</a></li>
                     </ul>

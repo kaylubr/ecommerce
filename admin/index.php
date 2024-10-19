@@ -11,7 +11,7 @@ if (!isset($_SESSION['user']) || $_SESSION['role'] !== 'admin') {
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Admin Dashboard</title>
+    <title>Seller Dashboard</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="style.css">
     <link href="https://cdn.jsdelivr.net/npm/flowbite@1.5.0/dist/flowbite.min.css" rel="stylesheet">
@@ -20,7 +20,7 @@ if (!isset($_SESSION['user']) || $_SESSION['role'] !== 'admin') {
 
     <header class="bg-indigo-600 text-white p-4 shadow-md">
         <div class="container mx-auto flex justify-between items-center">
-            <h1 class="text-2xl font-bold">Admin Dashboard</h1>
+            <h1 class="text-2xl font-bold">Seller Dashboard</h1>
             <nav class="flex items-center space-x-4">
                 <span class="text-lg font-medium">Welcome, <?php echo htmlspecialchars($_SESSION['user']); ?></span>
                 <a href="../logout.php" class="bg-white text-indigo-600 px-4 py-2 rounded-lg hover:bg-indigo-50 transition-all">
